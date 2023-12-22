@@ -23,8 +23,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/* nav manages the navigation bar */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* The source of the banner image */
 .main-banner-image {
     height: 800px;
     width: 100%;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Controls the placement of the images within the content div */
 .img-float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* benefits manages the banner on the right side of the page beside the content  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +133,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* manages the content section of the page. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
