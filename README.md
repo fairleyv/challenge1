@@ -15,7 +15,7 @@ From the front page you can view a number cards that describe the types of proje
 
 ## Credits
 
-N/A
+Original code from Bootcampspot
 
 ## License
 
